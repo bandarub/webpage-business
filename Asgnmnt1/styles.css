@@ -3,7 +3,7 @@
  font-family: Times;
  font-size: 20px;
  text-align:center;
- width:96%;
+
  height:100%;
  line-height: 1;
  margin: 55px 55px 55px 55px;
@@ -26,10 +26,10 @@ ul.navigation {
 }
 ul button{
  margin-right:30px;
- width:200px;
+ width:100px;
  height:50px;
  border-radius: 12px;
- font-size:21px;
+ font-size:12px;
 
 
 }
@@ -61,12 +61,12 @@ article #smiling{
  body .column {
   float: left;
   height: 300px; 
-  margin: 55px 0 0 0;
+  margin:0 0 0 0;
   border:5px;
   width:32%;
+  font-size: 15px;
   
 }
-
 
 body .row:after {
   content: "";
@@ -90,34 +90,22 @@ hr {
 
 }
 content .row #column1 hr{
-  border: 0;
-  height: 1px;
-  background: #333;
   border-bottom:1px dashed #ccc;
-  background-image: linear-gradient(to right, #ccc, #333, #ccc);
-  width:400px;
   float:left;
+  width:300px;
 
 } 
 content .row #column2 hr{
-  border: 0;
-  height: 1px;
-  background: #333;
   border-bottom:1px dashed #ccc;
-  background-image: linear-gradient(to right, #ccc, #333, #ccc);
-  width:600px;
+  width:450px;
   float:left;
 
 } 
 
 content .row #column3 hr{
-  border: 0;
-  height: 1px;
-  background: #333;
-  border-bottom:1px dashed #ccc;
-  background-image: linear-gradient(to right, #ccc, #333, #ccc);
-  width:525px;
-  float:center;
+  border-bottom:1px dashed white ;
+  width:400px;
+  float:left;
 
 } 
 
@@ -131,7 +119,7 @@ content p{
   padding: 10px;
   height: 225px;
   margin: 300px 0 0 0;
-  background-color: #efefef;
+  background-color: silver;
   text-align: center;
  }
  html {
